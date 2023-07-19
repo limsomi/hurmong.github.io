@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>얼음골이야기</title>
+    <link rel="stylesheet" href="../static/css/sub.css">
+    <link rel="stylesheet" href="../static/css/mediaquery_sub.css">
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+        crossorigin="anonymous">
+
+
+    <!-- JavaScript CDN 링크 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <div id="hd" class="hd" style="z-index: 1000;" >
+        <div id="logo">
+            <a href="./index.html">
+                <img src="../static/img/logo_black.svg" alt="얼음골이야기">
+            </a>
+        </div>
+        <div class="menu_bar">
+            <nav class="bar navbar navbar-expand-sm navbar-dark" aria-label="Third navbar example">
+                <div class="area container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="sub nav-item dropdown">
+                          <a class="menu nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">객실정보</a>
+                          <ul class="dropdown-menu">
+                            <li class="dropdown"><a class="dropdown-item" href="./introduction.html">다소니</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="./introduction.html">비나리</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="./introduction.html">은가비</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="./introduction.html">사나래</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="./introduction.html">그린나래</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="./introduction.html">초아</a></li>
+                          </ul>
+                        </li>
+                        <li class="sub nav-item">
+                            <a class="menu nav-link" href="../templates/surrounding.html">주변소개</a>
+                        </li>
+                        <li class="sub nav-item">
+                            <a class="menu nav-link" href="../templates/ask.html">문의</a>
+                        </li>
+                        <li class="sub nav-item">
+                          <a class="menu nav-link" aria-current="page" href="../templates/reservation.html">예약하기</a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </div>
+           <!-- 햄버거 버튼 -->
+        <li class="ham-btn" style="float: right;">
+            <a class="menu-trigger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </li>
+    </div>
+    <div id="wrapper">
+        <div id="container_wr">
+            <div class="title">
+                <img style="margin:0; width: 100%;" src="../static/img/title_book.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="ham-con">
+        <div id="ham-menu-wrap">
+
+            <div class="ham-menu mt-5">
+                <ul class="ham-top-menu">
+                    <li class="drop"><a href="#">객실정보<i class="bi bi-caret-down-fill"></i></a>
+                        <ul class="ham-sub-menu">
+                            <li><a href="./introduction.html">라소니</a></li>
+                            <li><a href="./introduction.html">비나리</a></li>
+                            <li><a href="./introduction.html">은가비</a></li>
+                            <li><a href="./introduction.html">초아</a></li>
+                            <li><a href="./introduction.html">사나래</a></li>
+                            <li><a href="./introduction.html">그린나래</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="../templates/surrounding.html">주변소개</a></li>
+                    <li><a href="../templates/ask.html">문의</a></li>
+                    <li><a href="../templates/reservation.html">예약하기</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="../static/js/main.js"></script>
+    <script src="../static/js/book.js"></script>
+</body>
+<footer>
+    <img style="margin:0; width: 100%;" src="../static/img/foot.svg" alt="">
+</footer>
+</html>
