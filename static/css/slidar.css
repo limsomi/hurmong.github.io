@@ -1,0 +1,30 @@
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+  }
+  
+  .next {
+    right: 0;
+    z-index: 1000;
+    background-color: black;
+
+  }
+  .slide {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+  

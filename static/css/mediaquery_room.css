@@ -11,15 +11,19 @@
     .slider
     {
         position: absolute;
-        top:47%;
-        left:30%;
+        top:55%;
+        left:50%;
         transform: translate(-50%,-50%);
     }
     
-    
+    .slide img {
+        width: 300px;
+        height: 200px;
+    }
+
     .slider{
-        width: 200px;
-        height: 100px;
+        width: 300px;
+        height: 200px;
         /* position: absolute; */
         margin: 0 auto;
         overflow: hidden; /* 현재 슬라이드 오른쪽에 위치한 나머지 슬라이드 들이 보이지 않도록 가림 */

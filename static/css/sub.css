@@ -178,4 +178,12 @@
     padding:2px;
   }
 
+  .ham-btn
+  {
+    visibility: hidden;
+  }
+  .ham-con
+  {
+    visibility: hidden;
+  }
 }
