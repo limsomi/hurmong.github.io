@@ -5,6 +5,8 @@ if(matchMedia("(max-width:576px)").matches)
     $('.direction img').attr("src","../static/img/mobile_dir.svg").fadeIn();
     $('.title img').attr("src","../static/img/mobile_title.svg").fadeIn();
     $('.info img').attr("src","../static/img/mobile_info2.svg").fadeIn();
+
+
     
 }
 else

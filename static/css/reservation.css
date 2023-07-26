@@ -1,6 +1,6 @@
 @media(min-width:576px)
 {
-    .ask
+    .book
     {
         position: relative;
         top: 50%;
@@ -8,7 +8,7 @@
         width: auto;
         height: 500px;
     }
-    .ask img
+    .book img
     {
         display: flex;
         justify-content: center;
@@ -17,30 +17,41 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .ask button
+    .btn_book
     {
         position: absolute;
-        bottom: 10%;
+        bottom: 0.15%;
         left: 35%;
         transform: translate(-50%, -50%);
         background-color: rgb(255, 228, 53);
-        border-color: black;
         width:300px;
         height:50px;
         font-size: 20px;
         border-radius: 5px;
     }
-    
+    .btn_kakao
+    {
+        position: absolute;
+        bottom: 40%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 228, 53);
+        width:300px;
+        height:50px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
 }
+
 @media(max-width:576px)
 {
-    .ask
+    .book
     {
         position: relative;
         width: auto;
         height: 200px;
     }
-    .ask img
+    .book img
     {
         display: flex;
         justify-content: center;
@@ -51,7 +62,7 @@
         left: 50%;
         transform: translate(-50%, -50%); */
     }
-    .ask button
+    .btn_book
     {
         height: 25px;
         position: absolute;
@@ -59,6 +70,19 @@
         left: 25%;
         transform: translate(-50%, -50%);
         background-color: rgb(255, 228, 53);
+        border-color:  rgb(255, 228, 53);
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .btn_kakao
+    {
+        height: 25px;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 228, 53);
+        border-color:  rgb(255, 228, 53);
         font-size: 10px;
         border-radius: 5px;
     }
