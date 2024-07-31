@@ -116,8 +116,7 @@
                 var width=350;
                 var height=400;
                 if(isMobile()){
-                    width=70;
-                    height=80;
+                    return
                 }
                 var popupOptions = `left=0,top=0,width=${width},height=${height},toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no`;
                 window.open('./templates/popup.html','_blank',popupOptions)
