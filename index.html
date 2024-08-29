@@ -108,21 +108,7 @@
 
             </div>
         </div>
-        <script>
-            function isMobile(){
-                return window.matchMedia("(max-width:576px)").matches;
-            }
-            function openPopup(){
-                var width=350;
-                var height=400;
-                if(isMobile()){
-                    return
-                }
-                var popupOptions = `left=0,top=0,width=${width},height=${height},toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no`;
-                window.open('./templates/popup.html','_blank',popupOptions)
-            }
-            window.onload=openPopup;
-        </script>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="/js/bootstrap.js"></script>    
         <script src="./static/js/main_bar.js"></script>
